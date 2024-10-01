@@ -137,7 +137,9 @@
 
 #define USE_UART2
 #define UART2_RX_PIN            PB0
+#define UART2_RX_AF             6
 #define UART2_TX_PIN            PA2
+#define UART2_TX_AF             7
 
 #define USE_UART3
 #define USE_UART3_PIN_SWAP
