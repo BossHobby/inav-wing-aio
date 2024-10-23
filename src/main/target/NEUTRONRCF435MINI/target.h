@@ -135,10 +135,6 @@
 //#define USB_DETECT_PIN          PC14
 #define USE_USB_DETECT
 
-#define USE_UART1
-#define UART1_RX_PIN            PA10
-#define UART1_TX_PIN            PA9
-
 #define USE_UART2
 #define UART2_RX_PIN            PB0
 #define UART2_TX_PIN            PA2
@@ -156,11 +152,11 @@
 #define UART7_RX_PIN            PB3
 #define UART7_TX_PIN            PB4
 
-#define SERIAL_PORT_COUNT       6
+#define SERIAL_PORT_COUNT       5
 
 #define DEFAULT_RX_TYPE         RX_TYPE_SERIAL
 #define SERIALRX_PROVIDER       SERIALRX_CRSF
-#define SERIALRX_UART           SERIAL_PORT_USART7
+#define SERIALRX_UART           SERIAL_PORT_USART3
 
 // *************** ADC *****************************
 #define USE_ADC
