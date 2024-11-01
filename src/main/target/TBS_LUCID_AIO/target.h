@@ -35,9 +35,9 @@
 
 #define USE_VCP
 
-#define USE_UART1
-#define UART1_TX_PIN PB6
-#define UART1_RX_PIN PB7
+// #define USE_UART1
+// #define UART1_TX_PIN PB6
+// #define UART1_RX_PIN PB7
 
 #define USE_UART2
 #define UART2_TX_PIN PA2
@@ -55,7 +55,7 @@
 #define UART5_TX_PIN PB9
 #define UART5_RX_PIN PB8
 
-#define SERIAL_PORT_COUNT 6
+#define SERIAL_PORT_COUNT 5
 
 #define USE_SPI
 
