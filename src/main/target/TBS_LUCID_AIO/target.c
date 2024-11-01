@@ -37,6 +37,9 @@ timerHardware_t timerHardware[] = {
     DEF_TIM(TMR1, CH3, PA10, TIM_USE_OUTPUT_AUTO, 0, 3),  // S3
     DEF_TIM(TMR2, CH4, PA3, TIM_USE_OUTPUT_AUTO, 0, 4),   // S4
 
+    DEF_TIM(TMR4, CH1, PB6, TIM_USE_OUTPUT_AUTO, 0, 8),  // S5
+    DEF_TIM(TMR4, CH2, PB7, TIM_USE_OUTPUT_AUTO, 0, 9),  // S6
+
     DEF_TIM(TMR5, CH2, PH3, TIM_USE_LED, 0, 5),  // LED Strip
 };
 
