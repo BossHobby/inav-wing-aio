@@ -82,19 +82,19 @@
 #define UART1_TX_PIN            PA9
 #define UART1_RX_PIN            PA10
 
-#define USE_UART2
-#define UART2_TX_PIN            PA2
-#define UART2_RX_PIN            PA3
+// #define USE_UART2
+// #define UART2_TX_PIN            PA2
+// #define UART2_RX_PIN            PA3
 
 #define USE_SOFTSERIAL1
 #define SOFTSERIAL_1_TX_PIN     PB3
 #define SOFTSERIAL_1_RX_PIN     PB3
 
-#define USE_SOFTSERIAL2
-#define SOFTSERIAL_2_TX_PIN     PB10
-#define SOFTSERIAL_2_RX_PIN     PB10
+// #define USE_SOFTSERIAL2
+// #define SOFTSERIAL_2_TX_PIN     PB10
+// #define SOFTSERIAL_2_RX_PIN     PB10
 
-#define SERIAL_PORT_COUNT       5
+#define SERIAL_PORT_COUNT       3
 
 #define DEFAULT_RX_TYPE         RX_TYPE_SERIAL
 #define SERIALRX_PROVIDER       SERIALRX_CRSF
@@ -127,4 +127,4 @@
 #define TARGET_IO_PORTC         0xffff
 #define TARGET_IO_PORTD         0xffff
 
-#define MAX_PWM_OUTPUT_PORTS       4
+#define MAX_PWM_OUTPUT_PORTS       6
